@@ -1,0 +1,336 @@
+%Phase	step	ps/step	*	*
+%Set_1	OMM01	1	*	*
+Prod	1232	0.04	1	*
+				
+%Set_2	OMM1B	1	*	*
+Prod	623	0.04	1	*
+				
+%Set_3	OMM02	1	*	*
+Prod	328	0.04	1	*
+				
+%Set_4	OMM03	1	*	*
+Prod	100	0.04	1	*
+				
+%Set_5	OMM04	1	*	*
+Prod	90	0.04	1	*
+				
+%Set_6	OMM05	1	*	*
+Prod	765	0.04	1	*
+				
+%Set_7	OMM06	1	*	*
+Prod	534	0.04	1	*
+				
+%Set_8	OMM07	1	*	*
+Prod	745	0.04	1	*
+				
+%Set_9	OMM7B	1	*	*
+Prod	622	0.04	1	*
+				
+%Set_10	OMM08	1	*	*
+Prod	351	0.04	1	*
+				
+%Set_11	OMM09	1	*	*
+Prod	766	0.04	1	*
+				
+%Set_12	OMM10	1	*	*
+Prod	1259	0.04	1	*
+				
+%Set_13	OMM11	1	*	*
+Prod	859	0.04	1	*
+				
+%Set_14	OMM12	1	*	*
+Prod	860	0.04	1	*
+				
+%Set_15	OMM13	1	*	*
+Prod	218	0.04	1	*
+				
+%Set_16	OMM14	1	*	*
+Prod	722	0.04	1	*
+				
+%Set_17	OMM15	1	*	*
+Prod	562	0.04	1	*
+				
+%Set_18	OMM16	1	*	*
+Prod	785	0.04	1	*
+				
+%Set_19	OMM16-2	1	*	*
+Prod	521	0.04	1	*
+				
+%Set_20	OMM17	1	*	*
+Prod	653	0.04	1	*
+				
+%Set_21	OMM18	1	*	*
+Prod	752	0.04	1	*
+				
+%Set_22	OMM19	1	*	*
+Prod	750	0.04	1	*
+				
+%Set_23	OMM20	1	*	*
+Prod	756	0.04	1	*
+				
+%Set_24	OMM21	1	*	*
+Prod	822	0.04	1	*
+				
+%Set_25	OMM22	1	*	*
+Prod	1271	0.04	1	*
+				
+%Set_26	OMM23	1	*	*
+Prod	640	0.04	1	*
+				
+%Set_27	OMM24	1	*	*
+Prod	1271	0.04	1	*
+				
+%Set_28	OMM25	1	*	*
+Prod	1509	0.04	1	*
+				
+%Set_29	OMM26	1	*	*
+Prod	1099	0.04	1	*
+				
+%Set_30	OMM26B	1	*	*
+Prod	668	0.04	1	*
+				
+%Set_31	OMM27	1	*	*
+Prod	254	0.04	1	*
+				
+%Set_32	OMM28	1	*	*
+Prod	1713	0.04	1	*
+				
+%Set_33	OMM29	1	*	*
+Prod	800	0.04	1	*
+				
+%Set_34	OMM30	1	*	*
+Prod	131	0.04	1	*
+				
+%Set_35	OMM31	1	*	*
+Prod	211	0.04	1	*
+				
+%Set_36	OMM32	1	*	*
+Prod	211	0.04	1	*
+				
+%Set_37	OMM32B	1	*	*
+Prod	564	0.04	1	*
+				
+%Set_38	OMM33	1	*	*
+Prod	210	0.04	1	*
+				
+%Set_39	OMM34	1	*	*
+Prod	739	0.04	1	*
+				
+%Set_40	OMM35	1	*	*
+Prod	773	0.04	1	*
+				
+%Set_41	OMM36	1	*	*
+Prod	1461	0.04	1	*
+				
+%Set_42	OMM37	1	*	*
+Prod	44	0.04	1	*
+				
+%Set_43	OMM37B	1	*	*
+Prod	209	0.04	1	*
+				
+%Set_44	OMM37C	1	*	*
+Prod	44	0.04	1	*
+				
+%Set_45	OMM38	1	*	*
+Prod	43	0.04	1	*
+				
+%Set_46	OMM39	1	*	*
+Prod	43	0.04	1	*
+				
+%Set_47	OMM40	1	*	*
+Prod	150	0.04	1	*
+				
+%Set_48	OMM41	1	*	*
+Prod	284	0.04	1	*
+				
+%Set_49	OMM42	1	*	*
+Prod	283	0.04	1	*
+				
+%Set_50	OMM43	1	*	*
+Prod	451	0.04	1	*
+				
+%Set_51	OMM44	1	*	*
+Prod	244	0.04	1	*
+				
+%Set_52	OMM45	1	*	*
+Prod	180	0.04	1	*
+				
+%Set_53	OMM46	1	*	*
+Prod	474	0.04	1	*
+				
+%Set_54	OMM47	1	*	*
+Prod	466	0.04	1	*
+				
+%Set_55	OMM48	1	*	*
+Prod	493	0.04	1	*
+				
+%Set_56	OMM49	1	*	*
+Prod	493	0.04	1	*
+				
+%Set_57	OMM50	1	*	*
+Prod	207	0.04	1	*
+				
+%Set_58	OMM51	1	*	*
+Prod	207	0.04	1	*
+				
+%Set_59	OMM52	1	*	*
+Prod	340	0.04	1	*
+				
+%Set_60	OMM53	1	*	*
+Prod	338	0.04	1	*
+				
+%Set_61	OMM54	1	*	*
+Prod	341	0.04	1	*
+				
+%Set_62	OMM55	1	*	*
+Prod	341	0.04	1	*
+				
+%Set_63	OMM56	1	*	*
+Prod	315	0.04	1	*
+				
+%Set_64	OMM57	1	*	*
+Prod	315	0.04	1	*
+				
+%Set_65	OMM58	1	*	*
+Prod	1240	0.04	1	*
+				
+%Set_66	OMM59	1	*	*
+Prod	527	0.04	1	*
+				
+%Set_67	OMM60	1	*	*
+Prod	589	0.04	1	*
+				
+%Set_68	OMM61	1	*	*
+Prod	729	0.04	1	*
+				
+%Set_69	OMM62	1	*	*
+Prod	543	0.04	1	*
+				
+%Set_70	OMM63	1	*	*
+Prod	570	0.04	1	*
+				
+%Set_71	OMM64	1	*	*
+Prod	741	0.04	1	*
+				
+%Set_72	OMM65	1	*	*
+Prod	500	0.04	1	*
+				
+%Set_73	OMM66	1	*	*
+Prod	561	0.04	1	*
+				
+%Set_74	OMM67	1	*	*
+Prod	541	0.04	1	*
+				
+%Set_75	OMM68	1	*	*
+Prod	526	0.04	1	*
+				
+%Set_76	OMM69	1	*	*
+Prod	543	0.04	1	*
+				
+%Set_77	OMM70	1	*	*
+Prod	133	0.04	1	*
+				
+%Set_78	OMM71	1	*	*
+Prod	427	0.04	1	*
+				
+%Set_79	OMM72	1	*	*
+Prod	100	0.04	1	*
+				
+%Set_80	OMM73	1	*	*
+Prod	273	0.04	1	*
+				
+%Set_81	OMM74	1	*	*
+Prod	397	0.04	1	*
+				
+%Set_82	OMM75	1	*	*
+Prod	539	0.04	1	*
+				
+%Set_83	OMM76	1	*	*
+Prod	536	0.04	1	*
+				
+%Set_84	OMM77	1	*	*
+Prod	398	0.04	1	*
+				
+%Set_85	OMM78	1	*	*
+Prod	100	0.04	1	*
+				
+%Set_86	OMM79	1	*	*
+Prod	100	0.04	1	*
+				
+%Set_87	OMM80	1	*	*
+Prod	273	0.04	1	*
+				
+%Set_88	OMM81	1	*	*
+Prod	100	0.04	1	*
+				
+%Set_89	OMM82	1	*	*
+Prod	677	0.04	1	*
+				
+%Set_90	OMM83	1	*	*
+Prod	1521	0.04	1	*
+				
+%Set_91	OMM84	1	*	*
+Prod	381	0.04	1	*
+				
+%Set_92	OMM85	1	*	*
+Prod	349	0.04	1	*
+				
+%Set_93	OMM86	1	*	*
+Prod	768	0.04	1	*
+				
+%Set_94	OMM87	1	*	*
+Prod	384	0.04	1	*
+				
+%Set_95	OMM88	1	*	*
+Prod	383	0.04	1	*
+				
+%Set_96	OMM89	1	*	*
+Prod	439	0.04	1	*
+				
+%Set_97	OMM90	1	*	*
+Prod	760	0.04	1	*
+				
+%Set_98	OMM91	1	*	*
+Prod	439	0.04	1	*
+				
+%Set_99	OMM92	1	*	*
+Prod	1091	0.04	1	*
+				
+%Set_100	OMM93	1	*	*
+Prod	641	0.04	1	*
+				
+%Set_101	OMM94	1	*	*
+Prod	770	0.04	1	*
+				
+%Set_102	OMM95	1	*	*
+Prod	657	0.04	1	*
+				
+%Set_103	OMM96	1	*	*
+Prod	319	0.04	1	*
+				
+%Set_104	OMM97	1	*	*
+Prod	318	0.04	1	*
+				
+%Set_105	OMM98	1	*	*
+Prod	539	0.04	1	*
+				
+%Set_106	OMM99	1	*	*
+Prod	453	0.04	1	*
+				
+%Set_107	OMM100	1	*	*
+Prod	1627	0.04	1	*
+				
+%Set_108	OMM101	1	*	*
+Prod	308	0.04	1	*
+				
+%Set_109	OMM102	1	*	*
+Prod	342	0.04	1	*
+				
+%Set_110	OMM103	1	*	*
+Prod	308	0.04	1	*
+				
+%Set_111	OMM104	1	*	*
+Prod	533	0.04	1	*
+				
+%Set_112	OMM105	1	*	*
+Prod	355	0.04	1	*

@@ -1,0 +1,28 @@
+Id	Res	SubRes	Out	Code	Data	Name
+24	PS3	0	0	Oc2	"CFF orientation and potential metabolite"	COPM
+27	PS3	0	0	Id4	"ID CFF2 Methyl closest FE/O"	IDCMCF
+1	PS4	1	1	Di1	"Distance between CFF centromers"	DCAB
+2	PS4	2	2	Ag1	"Angle of heme and CFF1 planes"	AHCA
+3	PS4	3	3	Ag2	"Angle of heme and CFF2 planes"	AHCB
+4	PS4	9	4	Ag3	"Angle of CFF1 and CFF2 planes"	AHAB
+5	PS4	4	5	Ag4	"Angle C2>CFF1 cen/cen>Proj. FE/O" 	VCENA
+6	PS4	5	6	Ag5	"Angle C2>CFF2 cen/cen>Proj. FE/O" 	VCENB
+7	PS4	6	7	Id1	"Closest CFF1 atom to CFF2 cen"	IDENA
+8	PS4	7	8	Id2	"Closest CFF2 atom to CFF1 cen"	IDENB
+9	PS4	8	9	Id3	"Closest CFF* atom to Iron/O"	IDENC
+10	PS1-2	1	10	Sc1	"Stacking coverage Phe1 (226)"	SCM
+11	PS1-3	1	11	Sc2	"Stacking coverage Phe2 (260)"	SCMb
+12	PS1-2	2	12	Ag6	"Angle of CFF and  Phe1 (226) planes"	CPPA
+13	PS1-3	2	13	Ag7	"Angle of CFF and  Phe2 (260) planes"	CPPAb
+14	PS1-2	3	14	Di2	"Dist. from CFF cen to  Phe1 (226) plane"	CCTPP
+16	PS1-3	3	15	Di4	"Dist. from CFF cen to  Phe2 (260) plane"	CCTPb
+15	PS1-2	4	16	Di3	"Dist. from  CFF cen proj. {Phe1 plane}  to  Phe1 (226) cen"	DPCPC
+17	PS1-3	4	17	Di5	"Dist. from  CFF cen  proj. {Phe2 plane}  to  Phe2 (260) cen"	DPCPCb
+18	PS2	1	18	Ag8	"Angle of CFF and heme planes"	CHPA
+19	PS2	2	19	Di6	"Active oxy. to CFF plane dist."	OPCD
+20	PS2	3	20	Ag9	"Angle of CFF & hem plane interrsect with heme Na−Nc axis"	ACHAC
+21	PS2	4	21	Ag10	"Angle of  CFF cen−> FE Proj. {CFF plane} and hem Na−Nc axis"	ANG
+26	PS3	3	22	Ag11	"Angle from C2 CFF-cen to cen-FE/O proj."	ANGC2
+22	PS3	1	23	Di7	"Dist. of CFF cen and active Oxy proj. {CFF plane}"	DPCCO
+23	PS3	2	24	Oc1	"CFF orientation codes"	COC
+25	PS3	4	26	Di8	"Dist. from oxydized CFF atom  to active oxy."	DCATO
