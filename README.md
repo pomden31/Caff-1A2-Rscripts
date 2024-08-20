@@ -7,11 +7,12 @@ Molecular dynamic files by themselves are not included due to size, can be acces
 - Folder name : OMMxxx where xxx is the index number of the dynamic. These index numbers are used to build dataset used in R scripts as defined for example in lines 10 to 19 of CAFF_Main15.r script. Dataset anme and correspopnding  list of molecular dynamic runs have to be set in lines 29 and 30 of the Main R-script.
 - Folder content: Each folder must contain at least tree files: 1/ a "data.pdb" file giving the PDB structure associated with a dynamic (can be any frame of it).2/ a "data.dcd" file : a dcd file (OpenMM) describing the dynamic. 3/ a "readme.txt file" describing the dynamic. Complementary informations can be retrieved  on the optionally included "OMM_solv.prmtop" files, on extracted frames (as (.pdb) and on the Github includes indextxt, TimeSeries.txt, Workset.txt, plotParm.txt files using as key the folder index number.
 
-Runing scripts generate many intermediate and results files that must be manually transfered into a new folder named using the previously defined dataset name. These intermediate files can be used by scripts to rerun parts of scripts within requiring runing again all scripts. 
+ 
 
 Script organisation:
+Main Script: this part is devised on "phases" that can be run independantly provided to be run at least one time in order to build intermediate result files that are reuused by the next phases. Runing scripts generate many intermediate and results files that must be manually transfered into a new folder named using the previously defined dataset name. These intermediate files can be used by scripts to rerun parts of scripts within requiring runing again all scripts.Phase I that used primary data is the longer to run.
+
 Many parameters present in the different parts of scripts mustbe adjusted before run as follow:
-Main Script
 -  line 21: Used either "NULL" (no filter), "FE" (only P450 on iron III or II states) or "OXY" (only P450 on OXY ferrous state) are considered in datasets.
 - line 22 : defaut value 1 must be used excepted for special features.
 - line 23 : TRUE for 2 CFF at active site FALSE in the contrary
@@ -31,5 +32,17 @@ Main Script
 - line 103 : define mask for phase IVA (see examples on comments)
 - line 105-107 : set ranges of considered Imin and Dmin values
 - lines 109-113,122-124;128-131,138-139,143 : set display filters according to comments.
-WithKeras15 script: this part supposes that datasets have been previously defined and processed using phase I-IV of Main scripts and that suitable computing environment (including python)  was previously set to run keras and tensorflow libraries. 
+WithKeras15 script: this part which involmves deep learning processes supposes that datasets have been previously defined and processed using phase I-IV of Main scripts and that suitable computing environment (including python)  was previously set to run keras and tensorflow libraries.
+This script can be run / rerun by parts: it is recommended to read it and understand roles of parts before using. Executing at a whole migth mask intermediate results and graphs.
 - line 42 : list of datasets used in calculation
+- line 43 : corresponding names used in graphs.
+- line 44 : selected CFF for each dataset
+- line 45 : see comment and main script line 86
+- line 46-48 : select parameter index and parameter type for learning and prediction based on ids of line 49
+- line 50 : learning and testing fractions of data
+- line 51, 52 : filter on a specific P450 iron redox state
+- Line 54-56 : perform or not randomisation of the order of input or output data
+- Lines 57-58 : data ponderation and color sets
+- lines 60-62: filters  (learn, test, ignore) of batches defined according to comments
+- lines 64-65, 128-129 : set according to comments
+
