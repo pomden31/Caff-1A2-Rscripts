@@ -1,0 +1,164 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/pomden31/Caff-1A2-Rscripts/blob/main/OpenMM_simulV2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!curl -L https://github.com/mamba-org/micromamba-releases/releases/latest/download/micromamba-linux-64 -o /usr/local/bin/micromamba\n",
+        "!chmod +x /usr/local/bin/micromamba\n",
+        "\n",
+        "# Verify\n",
+        "!micromamba --version"
+      ],
+      "metadata": {
+        "id": "04Fdvbu-5ULu",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "5cb87753-0706-471c-ebb5-b4dc456f1afe"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\n",
+            "                                 Dload  Upload   Total   Spent    Left  Speed\n",
+            "  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n",
+            "  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\n",
+            "100 16.7M  100 16.7M    0     0  16.4M      0  0:00:01  0:00:01 --:--:-- 54.7M\n",
+            "2.5.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "os.environ[\"MAMBA_ROOT_PREFIX\"] = \"/opt/mamba_envs\"\n",
+        "\n",
+        "# Create and use an environment\n",
+        "!micromamba create -y -n myenv -c conda-forge python=3.10\n",
+        "!micromamba run -n myenv python --version"
+      ],
+      "metadata": {
+        "id": "tKnZxAgM9yH9"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!micromamba install -y -n openmm_env -c conda-forge openmm \"cuda-version>=12.0,<13.0\""
+      ],
+      "metadata": {
+        "id": "Ixg-feHL_eNG"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "id": "x_w1vJlpcxYJ",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "858c8047-8e59-4fd9-d39e-7045de989a30"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Drive already mounted at /content/drive; to attempt to forcibly remount, call drive.mount(\"/content/drive\", force_remount=True).\n"
+          ]
+        }
+      ],
+      "source": [
+        "from google.colab import drive\n",
+        "drive.mount('/content/drive')\n",
+        "output_dir = '/content/drive/MyDrive/OpenMM_results'\n",
+        "import os\n",
+        "os.makedirs(output_dir, exist_ok=True)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!micromamba run -n openmm_env python -u run_colab_base.py | tee log.txt"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F0PqUV3q-1y-",
+        "outputId": "914973e5-9796-4726-aa8b-f88db1524774"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Performing energy minimization...\n",
+            "Equilibrating...\n",
+            "Simulating...\n",
+            "[AutoSave] Sauvegarde vers Google Drive effectuée.\n",
+            "[AutoSave] Sauvegarde vers Google Drive effectuée.\n",
+            "[AutoSave] Sauvegarde vers Google Drive effectuée.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "QR8wS9Gw_OqH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "pryMYVdTNW2X"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "accelerator": "GPU",
+    "colab": {
+      "gpuType": "L4",
+      "machine_shape": "hm",
+      "provenance": [],
+      "mount_file_id": "1trJMGWj-cgsfH52ph8afVFy2bBiV6_AA",
+      "authorship_tag": "ABX9TyMHfZjfNUOtfjipaKlec7DC",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
